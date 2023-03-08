@@ -44,7 +44,7 @@ img.d-block {
 }
 
 .stuck {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255)!important;
 }
 
 .site-menu>li>a {
@@ -103,7 +103,7 @@ body.offcanvas-menu:before {
 }
 
 p {
-    color: #b3b3b3;
+    color: #393939;
     font-weight: 300;
 }
 
@@ -143,6 +143,7 @@ a:hover {
 
 .site-navbar {
     margin-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
     z-index: 1999;
     position: fixed;
     width: 100%;
@@ -197,7 +198,7 @@ a:hover {
 
 .site-navbar .site-navigation .site-menu>li>a {
     padding: 10px 0px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     text-decoration: none !important;
 }
@@ -565,10 +566,13 @@ a:hover {
 
 .carousel-caption h5 {
     font-size: 7rem;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 .carousel-caption p {
     font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 
