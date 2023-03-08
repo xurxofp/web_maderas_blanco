@@ -6,7 +6,7 @@ services:
     image: nginx:alpine
     restart: always
     volumes:
-      - ./*:/usr/share/nginx/html/
+      - ./:/usr/share/nginx/html/
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
     ports:
       - 8084:80
